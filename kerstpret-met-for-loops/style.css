@@ -1,0 +1,21 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: .8em;
+}
+h1 {
+    grid-row: 1;
+    grid-column: 1/3;
+}
+img {
+    height: auto;
+    width: 500px;
+}
+.kerst0{
+    grid-row: 2/4;
+}
+.kerst9{
+    grid-column: 3;
+    grid-row: 4/6;
+}

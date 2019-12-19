@@ -1,0 +1,32 @@
+Maak een pagina met Kerstafbeeldingen zoals de screenshot hierbijgevoegd.
+
+De url's van de afbeeldingen zijn extern en die kies je zelf. Hier is gekozen voor de afbeeldingen van pixels.com
+Er zijn 8 afbeeldingen in landschap-formaat (liggend) en 2 in portret-formaat (staand).
+
+Werkwijze:
+Plaats de URL's in een JavaScript array.
+Met een for-loop voeg je img-elementen (met daarin de url uit de array, alt-attribuut met een tekst waarin het nummertje ook voorkomt en een id waarin ook de iterator voorkomt.)
+
+Voorbeeld van een uitgevoerde afbeelding (via de inspector):
+<img src="https://images.pexels.com/photos/717988/pexels-photo-717988.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="mooie kerstafbeelding nummer 2" id="afb2">
+
+CSS grid: in de screenshot zie je hoe het grid is opgebouwd.
+Alle elementen zijn children van een container-div.
+Dus: 
+#container:
+- h1
+- p
+- img#afb1
+- img#afb2
+-
+...
+-
+- img#afb10
+ 
+De eerste en de achtste afbeelding gaan over 2 rijen, kop 1 over twee kolommen.
+
+Inleveren:
+Pagina op GitHub en online
+online link in README.md
+GitHublink in Magister
+
